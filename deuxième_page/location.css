@@ -1,0 +1,43 @@
+body {
+    background-image: url(fond/background.png);
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    background-size: cover;
+    margin-top: 10vw;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.rectangle {
+        width: 400px;
+        height: 250px;
+        border: 10px solid rgb(0, 0, 0);
+        border-radius: 60px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        position: absolute;
+        top: 380px; /* ajustez la valeur selon votre besoin */
+        left: 750px; /* ajustez la valeur selon votre besoin */
+}
+
+.text {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.bouton button {
+    margin-left: 110px;
+    margin-top: 60px;
+    font-size: 18px; /* Changer la taille de la police */
+    padding: 10px 20px; /* Changer le rembourrage du bouton */
+    background-color: #000000; /* Changer la couleur de fond */
+    color: #fff; /* Changer la couleur du texte */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Arrondir les coins */
+}
+
+.bouton button:hover {
+    background-color: #3089e7; /* Changer la couleur de fond au survol */
+}
